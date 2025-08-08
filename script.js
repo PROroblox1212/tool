@@ -1,5 +1,5 @@
 document.getElementById("goInstallPageBtn").onclick = function() {
-  const installerUrl = "https://github.com/PROroblox1212/tool/releases/download/1.0/script.exe";
+  const installerUrl = "https://github.com/PROroblox1212/tool/releases/download/v1.0.0/script.rar";
   
   const a = document.createElement("a");
   a.href = installerUrl;
