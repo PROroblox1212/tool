@@ -1,1 +1,30 @@
+body {
+    background: #492e92;
+    color: rgb(14, 99, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
 
+button {
+    padding: 0.5cm 3cm;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+button:active {
+    background-color: green;
+}
