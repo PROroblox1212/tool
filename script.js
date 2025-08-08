@@ -1,11 +1,9 @@
 document.getElementById("goInstallPageBtn").onclick = function() {
-  // URL of your installer
-  const installerUrl = "";
+  const installerUrl = "https://github.com/PROroblox1212/tool/releases/download/1.0/script.exe";
   
-  // Create a temporary link and trigger download
   const a = document.createElement("a");
   a.href = installerUrl;
-  a.download = ""; // triggers download instead of navigation
+  a.download = "";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
